@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="weather-box">
+            <div class="search-box">
+                <div class="search-div">
+                    <input class="search_bar" type="text" placeholder="Search" aria-label="Search" id="city" onkeydown = "if (event.keyCode == 13) document.getElementById('search-btn').click()">
+                    <button class="searchbtn" id="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+                </div>
+               
+
+            </div>
+
+
+            <div class="weather-box">
+                <div class="weather-content">
+                    <div class="boxes" style="width: 300px;">
+                        <p id="name"></p>
+                        <p id="temp"></p>
+                        <p id="feels"></p>
+                    </div>
+                    <div class="boxes"style="width: 300px;" id="img"></div>
+                    <div class="boxes">
+                        <p id="max"></p>
+                        <p id="min"></p>
+                    </div>
+                    <div class="boxes">
+                        <p id="hum"></p>
+                        <p id="pre"></p>
+                    </div>
+                </div>
+                
+             
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>
