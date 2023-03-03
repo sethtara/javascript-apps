@@ -22,12 +22,12 @@ let getWeather = () => {
 
         document.getElementById('temp').innerHTML=`${data.main.temp.toFixed(0)}&#176;C`;
 
-        document.getElementById('feels').innerHTML=`feels like: ${data.main.feels_like}&#176;C &emsp; wind: ${data.wind.speed} m/s`;
+        document.getElementById('feels').innerHTML=`<b>${data.weather[0].description}</b> &emsp;feels like: ${data.main.feels_like}&#176;C`;
         document.getElementById('img').innerHTML=`<img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png">`;
         document.getElementById('max').innerHTML=`max-temp : ${data.main.temp_max.toFixed(1)}&#176;C`;
         document.getElementById('min').innerHTML=`min-temp : ${data.main.temp_min.toFixed(1)}&#176;C`;
         document.getElementById('hum').innerHTML=`humidity : ${data.main.humidity} %`;
-        document.getElementById('pre').innerHTML=`pressure : ${data.main.pressure} hPa`;
+        document.getElementById('pre').innerHTML=`wind: ${data.wind.speed} m/s`;
         cityname.placeholder="Search City";
 
 

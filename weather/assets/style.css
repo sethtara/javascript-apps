@@ -10,11 +10,10 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding:5%;
 }
 .weather-box{
-    display:block;
-    width: 480px;
-    padding:4%;
+    display:table-caption;
     
    
 }
@@ -84,6 +83,7 @@ input:focus,button:focus{
 #name{
     font-size: 24px;
     font-weight: 500;
+    margin-top: 10px;
    
 }
 #img img{
