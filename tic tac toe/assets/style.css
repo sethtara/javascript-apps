@@ -62,7 +62,7 @@ button:active{
         width: 150px;
     }
     .set{
-       
+        height: 80px;
         font-size: 13px;
         padding: 5%;
     }
