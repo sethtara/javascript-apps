@@ -23,9 +23,10 @@ body{
     justify-content: center;
 }
 .set{
-    margin-left: 50px;
+    margin:5%;
     width: 110px;
     padding: 5%;
+    height: 80px;
     border-left: 1px dashed #7b7265;
 }
 button{
@@ -62,7 +63,7 @@ button:active{
         width: 150px;
     }
     .set{
-        margin-left: 20px;
+       
         font-size: 13px;
         width: 70px;
         padding: 5%;
