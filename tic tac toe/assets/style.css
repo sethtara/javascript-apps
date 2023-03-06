@@ -17,6 +17,7 @@ body{
     grid-template-rows: repeat(3,auto);
 
 }
+
 .contains{
     display: flex;
     margin: 5%;
@@ -46,8 +47,28 @@ button:active{
     width: 100px;
     font-size: 60px;
     text-align: center;
-    border: 1px dashed #7b7265;
+    border: 2px dashed #7b7265;
 }
+
+.c1,.c2,.c3{
+    border-top:none;
+    border-left: none;
+}
+.c3,.c6,.c9{
+    border-right: none;
+}
+.c4,.c5,.c6{
+    border-top:none;
+    border-left: none;
+}
+.c7,.c8,.c9{
+    border-top:none;
+    border-left: none;
+    border-bottom: none;
+}
+
+
+
 
 @media screen and (max-width:600px){
     .cell{
